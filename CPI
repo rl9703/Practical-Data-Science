@@ -1,0 +1,15 @@
+Predicting CPI for the next 5 years.
+
+Notebook used for testing in link: https://github.com/rl9703/Practical-Data-Science/blob/main/Application_CPI_Data.html
+
+In economic terms, inflation is a term that significantly affects the economy of a country, which is a process of increasing prices for both goods and services continuously during a specific period measured using a price index (Nopirin, 1987). One of the most frequently used price indexes to measure inflation is the Consumer Price Index (CPI). CPI compares prices in a month against the previous month, which is based on the base year for calculating the CPI. The effect on inflation is that the higher the resulting index value, the greater the possibility of inflation. In one condition, inflation can be considered beneficial, but it can also be regarded as detrimental. But in general, inflation can lead to economic instability, failure to carry out development, and lower levels of living and welfare. Monthly CPI values may be predicted for the next several periods using statistical analysis.
+
+The data identification stage is carried out to identify whether the data to be used met the ARIMA method requirements' assumptions or not, which is stationary. If the resulting data is non-stationary, it is necessary to carry out the differencing stages first. The most important function of the cpi library is inflate, which we use to adjust the value expressed in current dollars for inflation.
+
+Takeaways-
+-Inflation is the rise in the average price level of an economy over a period of time.
+-Current dollars represent the value in the time when it was recorded, while real dollars are adjusted for inflation.
+-We can use the cpi library to easily adjust for inflation (USD only).
+
+
+
